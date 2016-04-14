@@ -1,7 +1,7 @@
 FROM debian:jessie
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV KUBE_VERSION 1.0.1
+ENV KUBE_VERSION 1.2.2
 
 RUN apt-get update
 RUN apt-get -yy -q install curl iptables ca-certificates 
