@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-ENV KUBE_VERSION 1.2.2
+ENV KUBE_VERSION 1.2.4
 
 RUN mkdir -p /opt/bin
 RUN apt-get update
